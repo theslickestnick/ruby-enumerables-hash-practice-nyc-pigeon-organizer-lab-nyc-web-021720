@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
 
   data.each do |attribute_name, attributes|
-    binding.pry
+    # binding.pry
     attributes.each do |attribute_value, pigeon_names|
       pigeon_names.each do |name|
         pigeon_list[name] ||= {}
